@@ -1,0 +1,142 @@
+* {
+    font-family: poppins, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+.header{
+     display: flex;
+     position: fixed;
+     justify-content: space-between;
+     text-align: center;
+     background-color: blue;
+     top: 0;
+     left: 0;
+     width: 100%;
+     z-index: 1;
+}
+.header__logo{
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+.img1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+.header__info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.header__info__item {
+    margin: 15px;
+}
+.header__info--search {
+
+}
+.searchbox {
+    position: absolute;
+    width: 25px;
+    border-radius: 12.5px;
+    margin: -15px;
+    justify-content: center;
+    z-index: 1;
+}
+.searchicon {
+    position: absolute;
+    display: grid;
+    place-content: center;
+    margin: -10px;
+    z-index: 2;
+}
+.list {
+    margin-top: 20px;
+
+}
+.list_item {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.iconlist {
+    font-size: 25px;
+    padding: 0 10px 0 10px ;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+}
+.fa-camera {
+    padding: 0 10px 0 11px;
+}
+.fa-cart-shopping {
+    padding: 0 10px 0 8px;
+}
+.fa-thumbs-up {
+    padding: 0 11px 0 10px;
+}
+.fa-house {
+    padding: 0 8px 0 9px;
+}
+.main__ingredient {
+    position: fixed;
+    background-color: blueviolet;
+    width: 45px;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: 0.3s ease ;
+}
+.main__ingredient:hover {
+    width: 160px;
+}
+.main {
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    height: 100%;
+    z-index: 0;
+}
+.main__content {
+    display: table;
+    margin-left: 45px;
+    width: 100%;
+    height: 100%;
+}
+.img2 {
+    width: 100%;
+    height: 100%;
+}
+.content__img {
+    height: 100%;
+    width: 100%;
+}
+.content__text2 {
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.img__content {
+    height: 400px;
+    width: 700px;
+    border-radius: 6px;
+}
+.imgcontent {
+    width: 600px;
+    height: 300px;
+}
+.text__content {
+    padding-left: 50px;
+    
+}
